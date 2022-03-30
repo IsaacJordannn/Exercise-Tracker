@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+html {
+  background-color: beige;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1em;
+  line-height: 1.2;
+  color:crimson;
+  text-align: center;
+  border-style: solid;
+  border-width: 0.5em;
+}
+
+.App-header {
+  background-color:beige;
+  font-size: 2em;
+}
+
+h1 {
+  margin-block-start: 2%;
+  margin-block-end: 2%;
+}
+
+h2 {
+  margin-block-start: 2.5%;
+  margin-block-end: 2.5%;
+}
+
+span {
+  padding: 10%;
+}
+
+nav {
+  background-color: crimson;
+}
+
+nav a {
+  color: crimson;
+  font-size: 1.5em;
+  text-decoration: none;
+  padding-inline: 2%;
+  background-color: darkgrey;
+}
+
+nav a:hover {
+  background-color: darkred;
+}
+
+main {
+  color: crimson;
+  background-color: darkgrey;
+}
+
+table {
+  border-collapse: collapse;
+  height: auto;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4%;
+}
+
+caption {
+  border-style: solid;
+  border-color: crimson;
+  color: crimson;
+  padding: 2%;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+tr th {
+  padding: 2%;
+  font-size: large;
+}
+
+tr td {
+  border-style: solid;
+  padding: 2%;
+}
+
+fieldset {
+  margin-inline: 1%;
+}
+
+label {
+  font-weight: bolder;
+}
+
+input {
+  width: 15.85%;
+}
+
+button {
+  border-color: darkred;
+  background-color: crimson;
+  color: beige;
+  width: 10em;
+}
+
+a {
+  color: crimson;
+  font-size: 1.3em;
+  text-decoration: none;
+  padding-inline: 2%;
+  border-style: double;
+  line-height: 1.5;
+}
+
+a:hover {
+  background-color: darkred;
+}
+
+svg:hover {
+  background-color: darkred;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  background-color: crimson;
+  color: beige;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  position: relative;
+  height: 8%;
+  width: 8%;
+}
+
+.App-logo:hover {
+  background-color: beige;
+}
